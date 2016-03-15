@@ -267,9 +267,69 @@
     "description": "...",
     "message": "Werken alle technische componenten?"
   },  
-  "whitepaperondertitel9": {
+  "whitepapertxt9a": {
     "description": "...",
-    "message": "Werken alle technische componenten?"
+    "message": "Is Ethereum het protocol dat we willen gebruiken voor dit soort tools?"
+  },  
+  "whitepapertxt9b": {
+    "description": "...",
+    "message": "Is het handig voor de gebruiker om vanuit een front-endapp (in dit geval Polymer) te interageren met een blockchain?"
+  },  
+  "whitepapertxt9c": {
+    "description": "...",
+    "message": "Klopt de opmaak van de twee smart contracts in de app, nl. Membershipcontract en Validatiecontract? Zijn deze twee contracten voldoende of moeten er meer zijn?"
+  },  
+  "whitepapertxt9d": {
+    "description": "...",
+    "message": "Wat zijn technologische valkuilen waardoor het systeem vastloopt?"
+  },  
+  "whitepapertitel10": {
+    "description": "...",
+    "message": "Werken de social economics zoals voorzien?"
+  },  
+  "whitepapertxt10a": {
+    "description": "...",
+    "message": "Hoeveel leden komen erbij per uur en per dag?"
+  },   
+  "whitepapertxt10b": {
+    "description": "...",
+    "message": "Hoeveel mensen worden gevalideerd per uur en per dag?"
+  },  
+  "whitepapertxt10c": {
+    "description": "...",
+    "message": "Hoeveel mensen laten zich niet valideren?"
+  },  
+  "whitepapertxt10d": {
+    "description": "...",
+    "message": "Hoeveel mensen gebruiken alle validatiemogelijkheden?"
+  },   
+  "whitepapertxt10e": {
+    "description": "...",
+    "message": "Hoeveel mensen komen er om hulp vragen?"
+  },  
+  "whitepapertxt10f": {
+    "description": "...",
+    "message": "Lopen de social economics zoals door ons voorzien?"
+  },  
+  "whitepapertxt10g": {
+    "description": "...",
+    "message": "Kunnen we uit de teller van adam afleiden op welk tijdstip een nieuw lid zich aanmeldt?"
+  },  
+  "whitepapertitel11": {
+    "description": "...",
+    "message": "Wat brengt dit experiment bij de deelnemers te weeg?"
+  },  
+  "whitepapertxt11a": {
+    "description": "...",
+    "message": "Zien de deelnemers het potentieel van de gebruikte toepassing, verder dan de poezenclub? Komen er nieuwe ideëen door tot stand?"
+  },   
+  "whitepapertxt11b": {
+    "description": "...",
+    "message": "Breidt het netwerk zich verder uit dan de gesloten testgemeenschap van collega’s (bv thuis)?"
+  },  
+  "whitepapertxt11c": {
+    "description": "...",
+    "message": "Doen de deelnemers de moeite om te gaan onderzoeken/lezen wat er nu eigenlijk gebeurt, of zijn mensen daarin niet geïnteresseerd?"
   }
 }
 
