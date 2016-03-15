@@ -150,10 +150,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <div class="onderdeel">
                     <h2><i18n-msg msgid="hoewerkttittel"></i18n-msg></h2>
                     <template is="dom-if" if="{{!queryMatches}}">
-                      <img src="../images/hoewerktdepoezendoos-vertical.png">
+                      <img src="{{picvertical}}">
                     </template>
                     <template is="dom-if" if="{{queryMatches}}">
-                      <img src="../images/hoewerktdepoezendoos-horizontal.png">
+                      <img src="{{pichorizontal}}">
                     </template>
                 </div>
                   <div class="eindtxt">
@@ -223,7 +223,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <section data-route="whitepaper">
 
           <paper-toolbar class="horizontal layout">
-            <a href="/">< terug</a><button><a href="../images/POEZENCLUB.pdf" target="_blank">Download als pdf</a></button>  
+            <a href="/"><<i18n-msg msgid="backbtn"></i18n-msg></a><button><a href="../images/POEZENCLUB.pdf" target="_blank">Download pdf</a></button>  
           </paper-toolbar>
 
           <div class="whitepaper">

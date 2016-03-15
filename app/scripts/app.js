@@ -86,6 +86,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   app.langpick = function(){
     I18nMsg.lang = app.language;
     Platform.performMicrotaskCheckpoint();
+    app.pichorizontal = "../images/" + app.language+"-hoewerktdepoezendoos-horizontal.png";
+    app.picvertical = "../images/" + app.language+"-hoewerktdepoezendoos-vertical.png";
+    console.log("de hor is=" , app.pichorizontal);
+    console.log("de ver is=" , app.picvertical);
+
   };
 
 })(document);

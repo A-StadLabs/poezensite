@@ -75,260 +75,264 @@
     "description": "...",
     "message": "march"
   },  
+  "backbtn": {
+    "description": "...",
+    "message": "back"
+  },  
   "whitepaperhoofdtitel": {
     "description": "...",
-    "message": "Een social blockchain experiment"
+    "message": "A social blockchain experiment"
   },  
   "whitepapertitel1": {
     "description": "...",
-    "message": "Wat is de Poezenclub?"
+    "message": "What is the Kittyclub?"
   },  
   "whitepaperondertitel1": {
     "description": "...",
-    "message": "De Poezenclub is een sociaal experiment."
+    "message": "The Kittyclub is a social experiment."
   },  
   "whitepapertxt1": {
     "description": "...",
-    "message": "De Poezenclub is een beta toepassing, opgezet door A-Labs, om op kleine schaal te experimenteren met gedecentraliseerde sociale tools. Door de Poezenclub leren we hoe mensen omgaan met deze nieuwe tools, hoe mensen interageren met elkaar d.m.v. de app. De onschuldigheid van de content en de beperkte functionaliteiten van de app zorgen ervoor dat we  snel leren en verbeteren."
+    "message":  "The Kittyclub, created by A-Labs, is a beta test for a decentralized social tool. We want to learn how people interact with this new tool and how they interact with each other within the app. Because of it’s straight forward content and it’s limited functionalities, we aim to learn and improve fast."
   },  
   "whitepaperondertitel1b": {
     "description": "...",
-    "message": "De Poezenclub is gedecentraliseerd."
+    "message": "The Kittyclub is decentralized."
   },  
   "whitepapertxt1b": {
     "description": "...",
-    "message": "Gedecentraliseerd is het ontbreken van een centrale instantie, van centrale opslag … dit maakt de Poezenclub een autonome toepassing, die in handen is van iedereen en van niemand. Het gebruik van blockchain-technologie (specifiek het Ethereum-protocol) maakt dit mogelijk. Als digitaal innovatielab wil A-Labs uitproberen hoe deze technologie een stedelijke gemeenschap kan verbeteren."
+    "message": "Decentralized is the absence of a central authority, of central storage… By being decentralized, the Kittyclub is an autonomous application, owned by everyone and no one. To make this real, we use the blockchain- technology, more in specific, the Ethereum protocol. A-Labs, being a digital innovation lab, wants to try out these technologies to improve a community."
   },  
   "whitepapertitel2": {
     "description": "...",
-    "message": "Hoe werkt de Poezenclub?"
+    "message": "How does the Kittyclub work?"
   },  
   "whitepaperondertitel2": {
     "description": "...",
-    "message": "Het concept"
+    "message": "The concept"
   },  
   "whitepapertxt2": {
     "description": "...",
-    "message": "Je wordt lid van de Poezenclub door de Poezenclub-app te openen. Als lid van de Poezenclub kan je een poes kiezen, een naam geven en ze laten valideren door reeds gevalideerde poezen. Na twee validaties is je poes gevalideerd. Je kan nu de Poezendoos openen en ook zelf twee andere poezen valideren."
+    "message": "By opening the Kittyclub app, you become a new member. Once member of the Kittyclub, you can pick a cat, name it and have it validated by two other validated members. Once your kitty has two validations, you can open the Kittybox and start validating 3 other new members."
   },  
   "whitepaperondertitel2b": {
     "description": "...",
-    "message": "Enkele technische basisbegrippen"
+    "message": "A few technical concepts"
   },  
   "whitepapertech1txt": {
     "description": "...",
-    "message": "Een gedistribueerde database die verdeeld is over het volledige netwerk en onderhouden wordt door miners die alle transacties herberekenen. Door de combinatie van gedecentraliseerde architectuur, encryptie en verificatie door de miners coördineert de blockchain de instemming van alle partijen."
+    "message": "A database, distributed over the entire network and maintained by miners, recalculating transactions. By combining decentralized architecture, encryption and verification by miners, the blockchain coordinates the approval of all parties."
   },  
   "whitepapertech2txt": {
     "description": "...",
-    "message": "Een gedecentraliseerd platform voor smart contracts die applicaties draaien zonder tussenpersonen en zonder risico op downtime, censuur, fraude."
+    "message": "A decentralized platform for smart contracts, that runs applications without intermediaries, without risk of downtown, censorship or fraude."
   },  
   "whitepapertech3txt": {
     "description": "...",
-    "message": "De cryptocurrency van Ethereum, die nodig is om smart contracts uit te voeren. De miners in Ethereum worden hierin betaald voor hun rekenwerk dus ether wordt gezien als de olie die de machine doet draaien."
+    "message": "The cryptocurrency of Ethereum  needed to execute a smart contract. The Ethereum miners are paid in Ether."
   },  
   "whitepapertech4txt": {
     "description": "...",
-    "message": "Computerprotocols die de onderhandeling of de uitvoering van een contract faciliteren, verifiëren of bekrachtigen."
+    "message": "Computerprotocols that facilitate, verify or ratify the negotiation or execution of a contract."
   },  
   "whitepapertech5txt": {
     "description": "...",
-    "message": "Een protocol om machines met machines te laten praten."
+    "message": "A machine-to-machine connectivity protocol."
   },  
   "whitepaperondertitel3": {
     "description": "...",
-    "message": "Technische omschrijving per actie"
+    "message": "Step by step technical description"
   },  
   "whitepaperactie1titel": {
     "description": "...",
-    "message": "Ik open de app"
+    "message": "I open the app"
   },
   "whitepaperactie1txta": {
     "description": "...",
-    "message": "Er wordt lokaal op mijn toestel een wallet aangemaakt met public en private key en een account balance."
+    "message": "A wallet with private and public key and an account balance are created and stored locally on my device."
   },
     "whitepaperactie1txtb": {
     "description": "...",
-    "message": "Op het membershipcontract in Ethereum wordt een nieuwe lijn toegevoegd, waarin mijn account als nieuw lid word toegevoegd."
+    "message": "A new line is added on the membershipcontract in Ethereum,  my new membershipaccount is added."
   },
   "whitepaperactie1txtc": {
     "description": "...",
-    "message": "Er wordt in Ethereum een validatiecontract aangemaakt voor mijn account."
+    "message": "A validationcontract for my account is created in Ethereum."
   },
     "whitepaperactie1txtd": {
     "description": "...",
-    "message": "Ik ontvangt 1 ether in mijn wallet."
+    "message": "I recieve 1,1 ether in my wallet."
   },  
   "whitepaperactie2titel": {
     "description": "...",
-    "message": "Ik kies een naam en foto voor mijn kat"
+    "message": "I choose a picture and a name for my cat"
   },
   "whitepaperactie2txta": {
     "description": "...",
-    "message": "Deze gegevens worden lokaal op mijn toestel bewaard."
+    "message": "These data will only be stored locally on my device."
   },  
   "whitepaperactie3titel": {
     "description": "...",
-    "message": "Om mijn poes te laten valideren, vraag ik de pincode van een lid met een gevalideerde poes"
+    "message": "To get my kitty validated, I request the pincode of a member with a validated kitty"
   },
   "whitepaperactie3txta": {
     "description": "...",
-    "message": "Er wordt over MQTT een bericht gestuurd naar het topic “.../pincode-validator”. In dit bericht staat de foto en de naam van mijn te valideren kat, het commando “valideer mij”, mijn pincode en mijn validatiecontractadres."
+    "message": "Over MQTT a message is sent to the topic “.../pincode-validator”. This message contains the picture and name of my kitty who is getting validated, the command “validate my kitty”, my pincode and my validationcontractadress."
   },
     "whitepaperactie3txtb": {
     "description": "...",
-    "message": "De validator ontvangt over MQTT van het topic “.../pincode-validator” dit bericht en ziet in de app de te valideren gegevens."
+    "message": "The validator receives this message over MQTT from the topic “.../pincode-validator” and his app shows the data he will be validating."
   },  
   "whitepaperactie4titel": {
     "description": "...",
-    "message": "Validator bevestigt in de app mijn gegevens"
+    "message": "The validator confirms the data in the app"
   },
   "whitepaperactie4txta": {
     "description": "...",
-    "message": "Er wordt over MQTT een bericht gestuurd naar topic “.../pincode-aanvrager”.  In dit bericht staat de boodschap “validatie ok”."
+    "message": "Over MQTT a message is sent to the topic “.../pincode-aanvrager”. This message contains “validation ok”."
   },
     "whitepaperactie4txtb": {
     "description": "...",
-    "message": "Op mijn validatiecontract wordt +1 validatie toegevoegd."
+    "message": "+1 validation is added on the validation contract of the new member."
   },
   "whitepaperactie4txtc": {
     "description": "...",
-    "message": "Er wordt 1 ether van de wallet van de validator naar mijn wallet gestuurd, m.a.w. het kost 1 ether om iemand te valideren."
+    "message": "1 ether from the validator’s wallet is sent to the wallet of the new member, i.o.w. validating someone costs 1 ether."
   },
     "whitepaperactie4txtd": {
     "description": "...",
-    "message": "Over MQTT wordt naar mij verstuurd dat de validator bevestigd heeft."
+    "message": "Over MQTT the new member gets a confirmation from the validator."
   },  
   "whitepaperactie5titel": {
     "description": "...",
-    "message": "Ik vraag een tweede validatie aan een ander lid met een gevalideerde poes"
+    "message": "I request a second validation from  another member."
   },
   "whitepaperactie5txta": {
     "description": "...",
-    "message": "Alle stappen zoals hierboven beschreven worden herhaald."
+    "message": "All steps as described above are repeated."
   },
     "whitepaperactie5txtb": {
     "description": "...",
-    "message": "Eens er twee validaties op het validatiecontract staan, worden nieuwe functies in de app ontsloten: openen van de doos, zelf kunnen valideren."
+    "message": "New features are enabled once the validationcontract has two validations: opening the box and the ability to validate a new member."
   },  
   "whitepaperactie6titel": {
     "description": "...",
-    "message": "Om de doos te openen, voer ik in de app de pincode van de doos in"
+    "message": "To open the box, I enter the box’s pincode in the app"
   },
   "whitepaperactie6txta": {
     "description": "...",
-    "message": "Er wordt over MQTT een bericht gestuurd naar topic “.../pincode-doos”. In dit bericht staat mijn validatiecontractadres, mijn pincode en het commando “check contract”."
+    "message": "Over MQTT a message is sent to the topic “.../pincode-box”. This message contains my  validationcontractadress, my pincode and the command “check contract”."
   },
     "whitepaperactie6txtb": {
     "description": "...",
-    "message": "De doos ontvangt dit bericht en checkt het aantal validaties op mijn validatiecontract."
+    "message": "The box receives this message and checks the number of validations on my validationcontract."
   },
   "whitepaperactie6txtc": {
     "description": "...",
-    "message": "Staan er 2 validaties op mijn validatiecontract, dan opent de doos."
+    "message": "The box opens if there are two validations on my validationcontract."
   },
     "whitepaperactie6txtd": {
     "description": "...",
-    "message": "Een nieuwe pincode voor de doos worden aangemaakt."
+    "message": "A new pincode is generated for the box."
   },  
   "whitepaperactie7titel": {
     "description": "...",
-    "message": "Ik sluit de doos"
+    "message": "I close the box"
   },
   "whitepaperactie7txta": {
     "description": "...",
-    "message": "Er wordt over MQTT een bericht gestuurd naar topic “.../pincode-doos”. In dit bericht staat het het commando “sluit doos”. De doos ontvangt dit bericht en sluit."
+    "message": "Over MQTT a message is sent to the topic “.../pincode-box”. This message contains the command “close box”. The box receives this message and closes."
   },  
   "whitepapertitel8": {
     "description": "...",
-    "message": "Social economics in de Poezenclub"
+    "message": "The Kitty Club: Social Economics"
   },  
   "whitepaperondertitel8": {
     "description": "...",
-    "message": "De waarde van het valideren"
+    "message": "The value of validating"
   },  
   "whitepapertxt8a": {
     "description": "...",
-    "message": "Een gedecentraliseerd netwerk moet op zichzelf kunnen bestaan en verder uitbreiden, zonder onderhoud van een centrale partij. Daarom kost in het Ethereum protocol elke transactie met een smart contract een kleine hoeveelheid ether, een soort transactiekost betaald door het netwerk."
+    "message": "A decentralized network has to be autonomous. It can expand and is supported by a community, without central nodes. To achieve this, Ehtereum calculates a gas cost, the cost of executing a transaction. This cost is called “gas”. A small amount of gas is needed to execute a transaction."
   },  
   "whitepapertxt8b": {
     "description": "...",
-    "message": "Wij gaan voor het Poezenclub-netwerk een stap verder en voeren social economics in: we geven een waarde aan het valideren, nl. 1 validatie = 1 ether. Het kost de validator 1 ether om een poes te valideren. De te valideren poes ontvangt deze ether. Op deze manier zorgen we ervoor dat alle nodes gelijkwaardig zijn in het netwerk en kan geen enkele node een belangrijkere of meer centrale positie krijgen in het netwerk (vb. één node die 100 validaties uit zou voeren)."
+    "message": "In the Kitty Club-demo, we push this a little further and we apply ‘social economics’: we add a value to the validating itself: 1 validation = 1 ether. For every validation, the validator pays a small cost. Validating a kitty costs 1 ether. The validated kitty receives this ether. This keeps every node in the network equal so no one node can achieve a more central or more important position in the network (f.i. one node that does 100 validations)."
   },  
   "whitepapertxt8c": {
     "description": "...",
-    "message": "Concreet krijgt elk nieuw lid van de Poezenclub bij aanmaak van zijn account 1,005 ether in zijn wallet. Per validatie krijgt hij er 1 ether bij. Met een volledig gevalideerde poes heeft dit lid in zijn wallet dus 3,1 ether: 1,1 (aanmaak account) + 1 (eerste validatie) + 1 (tweede validatie). Met deze 3,1 ether kan hij op zijn beurt 3 nieuwe poezen valideren. Zonder ether kan er niet gevalideerd worden, dus elk lid van de Poezenclub (met een gevalideerde poes) kan maximaal 3 andere poezen valideren. Met dit ingebouwd mechanisme van social economics bewaart de Poezenclub zijn decentrale netwerkstructuur."
+    "message": "In practice, every new member gets 1,1 ether in their wallet. Per validation, 1 ether is added. When the kitty is fully validated, the member has a balance of 3,1 ether: 1,1 when the account is created, 1, 0 with first validation, 1,0 with second validation. With these 3,1 ether, the member can validate 3 other kitties and execute actions on the smart contracts. This mechanism protects the decentral network structure of the club."
   },  
   "whitepapertitel9": {
     "description": "...",
-    "message": "Wat willen we leren uit de Poezenclub?"
+    "message": "What do we want to learn from the Kittyclub?"
   },  
   "whitepaperondertitel9": {
     "description": "...",
-    "message": "Werken alle technische componenten?"
+    "message": "Do all technical components work?"
   },  
   "whitepapertxt9a": {
     "description": "...",
-    "message": "Is Ethereum het protocol dat we willen gebruiken voor dit soort tools?"
+    "message": "Is Ethereum the right protocol for these kind of application?"
   },  
   "whitepapertxt9b": {
     "description": "...",
-    "message": "Is het handig voor de gebruiker om vanuit een front-endapp (in dit geval Polymer) te interageren met een blockchain?"
+    "message": "Is the interaction with a blockchain from the front-endapp (Polymer) userfriendly?"
   },  
   "whitepapertxt9c": {
     "description": "...",
-    "message": "Klopt de opmaak van de twee smart contracts in de app, nl. Membershipcontract en Validatiecontract? Zijn deze twee contracten voldoende of moeten er meer zijn?"
+    "message": "Is the architecture of the two contracts correct? "
   },  
   "whitepapertxt9d": {
     "description": "...",
-    "message": "Wat zijn technologische valkuilen waardoor het systeem vastloopt?"
+    "message": "Are these two contracts sufficient or do we need more?"
   },  
   "whitepapertitel10": {
     "description": "...",
-    "message": "Werken de social economics zoals voorzien?"
+    "message": "Are there any tech pitfalls that can make the system fail?"
   },  
   "whitepapertxt10a": {
     "description": "...",
-    "message": "Hoeveel leden komen erbij per uur en per dag?"
+    "message": "How many members are created by the hour, by day?"
   },   
   "whitepapertxt10b": {
     "description": "...",
-    "message": "Hoeveel mensen worden gevalideerd per uur en per dag?"
+    "message": "How many members get validated by the hour, by day?"
   },  
   "whitepapertxt10c": {
     "description": "...",
-    "message": "Hoeveel mensen laten zich niet valideren?"
+    "message": "How many members get no validations?"
   },  
   "whitepapertxt10d": {
     "description": "...",
-    "message": "Hoeveel mensen gebruiken alle validatiemogelijkheden?"
+    "message": "How many members use all validation options? "
   },   
   "whitepapertxt10e": {
     "description": "...",
-    "message": "Hoeveel mensen komen er om hulp vragen?"
+    "message": "How many people come asking for help?"
   },  
   "whitepapertxt10f": {
     "description": "...",
-    "message": "Lopen de social economics zoals door ons voorzien?"
+    "message": "Do the social economics work as foreseen?"
   },  
   "whitepapertxt10g": {
     "description": "...",
-    "message": "Kunnen we uit de teller van adam afleiden op welk tijdstip een nieuw lid zich aanmeldt?"
+    "message": "Can we read from membershipcontract what time a new member assigns?"
   },  
   "whitepapertitel11": {
     "description": "...",
-    "message": "Wat brengt dit experiment bij de deelnemers te weeg?"
+    "message": "How does the app influence the participants?"
   },  
   "whitepapertxt11a": {
     "description": "...",
-    "message": "Zien de deelnemers het potentieel van de gebruikte toepassing, verder dan de poezenclub? Komen er nieuwe ideëen door tot stand?"
+    "message": "Do the participants see the potential of the app? Do they see the potential beyond the Kittyclub?"
   },   
   "whitepapertxt11b": {
     "description": "...",
-    "message": "Breidt het netwerk zich verder uit dan de gesloten testgemeenschap van collega’s (bv thuis)?"
+    "message": "Does the netwerk expand beyond the closed community of colleagues, f.e. at home?"
   },  
   "whitepapertxt11c": {
     "description": "...",
-    "message": "Doen de deelnemers de moeite om te gaan onderzoeken/lezen wat er nu eigenlijk gebeurt, of zijn mensen daarin niet geïnteresseerd?"
+    "message": "Do the participants search for more information about the technology? Or are they not interested?"
   }
 }

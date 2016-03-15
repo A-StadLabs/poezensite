@@ -75,6 +75,10 @@
     "description": "...",
     "message": "maart"
   },  
+  "backbtn": {
+    "description": "...",
+    "message": "terug"
+  },  
   "whitepaperhoofdtitel": {
     "description": "...",
     "message": "Een social blockchain experiment"
