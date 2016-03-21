@@ -46,11 +46,39 @@
   "hoewerkttittel": {
     "description": "...",
     "message": "How does the Kittyclub work?"
-  },
-  "hoewerkttxt": {
-    "description": "...",
-    "message": "By opening the Kittyclub app, you become a new member. Once member of the Kittyclub, you can pick a cat, name it and have it validated by two other validated members. Once your kitty has two validations, you can open the Kittybox and start validating 3 other new members."
   },  
+  "hoewerkt1titel": {
+    "description": "...",
+    "message": "Get validated"
+  },
+  "hoewerkt1txt": {
+    "description": "...",
+    "message": "By opening the Kittyclub app, you become a new member. Once member of the Kittyclub, you can pick a cat, name it and have it validated by two other validated members. Once your kitty has two validations, you are a valided member of the club."
+  },  
+  "hoewerkt2titel": {
+    "description": "...",
+    "message": "Start validating"
+  },
+  "hoewerkt2txt": {
+    "description": "...",
+    "message": "Being a valided member, you can now validate 3 other new members."
+  }, 
+  "hoewerkt3titel": {
+    "description": "...",
+    "message": "Cast your vote"
+  },
+  "hoewerkt3txt": {
+    "description": "...",
+    "message": "The Kittyclub is a democratic organisation, where decisions are made by voting. For every decision, each valid member has one vote. The first decision to make is what will be inside the Kittybox (a goodie box). The voting will be restricted in time, members can change their vote up untill the deadline. The option with the most votes will be the next content of the Kittybox"
+  }, 
+  "hoewerkt4titel": {
+    "description": "...",
+    "message": "Open the box"
+  },
+  "hoewerkt4txt": {
+    "description": "...",
+    "message": "If you voted for the winning option, you will be able to open the box and grab a goodie. If you didn't vote for the winning option, the box will stay closed. Every week there is a new voting round and you'll have a new chance."
+  },
   "technisch1": {
     "description": "...",
     "message": "More details?"

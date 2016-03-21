@@ -132,7 +132,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                   </div>
                   <img src="../images/decentralised.png">
                 </div>
-                    <a class="onderdeelbtn" href="/whitepaper" class="joinbtn"><img src="../images/smallpaw.png"><i18n-msg msgid="whitepaper"></i18n-msg></a>      
+                    <a class="onderdeelbtn" href="images/POEZENCLUB-{{language}}.pdf" class="joinbtn"><img src="../images/smallpaw.png"><i18n-msg msgid="whitepaper"></i18n-msg></a>      
               </div>
             </div>
 
@@ -140,7 +140,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <!-- SECTIE 3: full btn -->
             <div class="contentsectie">
               <div class="fullink">
-                <a href="//app.poezenclub.be" target="_blank"><i18n-msg msgid="fullink"></i18n-msg></a>
+                <a href="http://app.poezenclub.be" target="_blank"><i18n-msg msgid="fullink"></i18n-msg></a>
               </div>
             </div>
 
@@ -148,22 +148,61 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <!-- SECTIE 4: Hoe werkt zo'n poezenclub? -->
             <div class="contentsectie darkback">
               <div class="hoewerkt">
-                <div class="onderdeel">
-                    <h2><i18n-msg msgid="hoewerkttittel"></i18n-msg></h2>
-                    <template is="dom-if" if="{{!queryMatches}}">
-                      <img src="{{picvertical}}">
-                    </template>
-                    <template is="dom-if" if="{{queryMatches}}">
-                      <img src="{{pichorizontal}}">
-                    </template>
-                </div>
-                  <div class="eindtxt">
-                    <p>
-                      <i18n-msg msgid="hoewerkttxt"></i18n-msg>
-                    </p>
+              
+              <h2><i18n-msg msgid="hoewerkttittel"></i18n-msg></h2>
+
+              <div class="hoewerktallessamen">
+              <div class="hoewerktonderdeel">
+                <div class="hoewerktonderdeeltxt">
+                  <div class="nmbr"><h2>1</h2></div>
+                  <p>
+                    <span class="hoewerktondertitel bolder"><i18n-msg msgid="hoewerkt1titel"></i18n-msg></span><br>
+                    <i18n-msg msgid="hoewerkt1txt"></i18n-msg>
+                  </p>
                   </div>
+<!--                   <img src="../images/decentralised.png"> -->
+<!--               </div>
+
+
+              <div class="hoewerktonderdeel"> -->
+                <div class="hoewerktonderdeeltxt">
+                  <div class="nmbr"><h2>2</h2></div>
+                  <p>
+                    <span class="hoewerktondertitel bolder"><i18n-msg msgid="hoewerkt2titel"></i18n-msg></span><br>
+                    <i18n-msg msgid="hoewerkt2txt"></i18n-msg>
+                  </p>
+                </div>
+<!--                 <img src="../images/decentralised.png"> -->
+<!--               </div>
+
+
+              <div class="hoewerktonderdeel"> -->
+                <div class="hoewerktonderdeeltxt">
+                  <div class="nmbr"><h2>3</h2></div>
+                  <p>
+                    <span class="hoewerktondertitel bolder"><i18n-msg msgid="hoewerkt3titel"></i18n-msg></span><br>
+                    <i18n-msg msgid="hoewerkt3txt"></i18n-msg>
+                  </p>
+                </div>
+<!--                 <img src="../images/decentralised.png"> -->
+<!--               </div>
+
+
+              <div class="hoewerktonderdeel"> -->
+                <div class="hoewerktonderdeeltxt">
+                  <div class="nmbr"><h2>4</h2></div>
+                  <p>
+                    <span class="hoewerktondertitel bolder"><i18n-msg msgid="hoewerkt4titel"></i18n-msg></span><br>
+                    <i18n-msg msgid="hoewerkt4txt"></i18n-msg>
+                  </p>
+                </div>
+
+
               </div>
-            </div>
+
+                <img src="../images/hoewerkt.png">
+              </div>
+
 
 
 
@@ -174,7 +213,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                   <div class="technisch">
                     <p><i18n-msg msgid="technisch1"></i18n-msg>
                     </p>
-                    <a href="/whitepaper/"><img src="../images/smallpaw-black.png"><i18n-msg msgid="technischlink1"></i18n-msg></a>                    
+                    <a href="images/POEZENCLUB-{{language}}.pdf"><img src="../images/smallpaw-black.png"><i18n-msg msgid="technischlink1"></i18n-msg></a>                    
                     <a href="//github.com/A-StadLabs/poezenclub"><img src="../images/GitHub-Mark_40x40-black.svg"><i18n-msg msgid="technischlink2"></i18n-msg></a>                    
                   </div>
                 </div>
@@ -217,153 +256,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </div>
           </div>
         </section>
-
-
-
-
-        <section data-route="whitepaper">
-
-          <paper-toolbar class="horizontal layout">
-            <a href="/"><<i18n-msg msgid="backbtn"></i18n-msg></a><button><a href="../images/POEZENCLUB-{{language}}.pdf" target="_blank">Download pdf</a></button>  
-          </paper-toolbar>
-
-          <div class="whitepaper">
-            <br>
-            <h1><i18n-msg msgid="kitty"></i18n-msg></h1><br>
-            <p><i18n-msg msgid="whitepaperhoofdtitel"></i18n-msg>
-            <br>
-            A-Labs © 2016<br>
-            <a href="//poezenclub.be">http://poezenclub.be</a><br>
-            <a href="mailto:hello@a-labs.eu">hello@a-labs.eu</a>
-            </p>
-            <br>
-            <br>
-            <br>
-            <h2><i18n-msg msgid="whitepapertitel1"></i18n-msg></h2>
-            <h3><i18n-msg msgid="whitepaperondertitel1"></i18n-msg></h3>
-            <p><i18n-msg msgid="whitepapertxt1"></i18n-msg></p>
-            <br>
-            <h3><i18n-msg msgid="whitepaperondertitel1b"></i18n-msg></h3>
-            <p>
-            <i18n-msg msgid="whitepapertxt1b"></i18n-msg></p>
-            <br>
-            <br>
-            <br>
-            <h2><i18n-msg msgid="whitepapertitel2"></i18n-msg></h2>
-            <h3><i18n-msg msgid="whitepaperondertitel2"></i18n-msg></h3>
-            <p><i18n-msg msgid="whitepapertxt2"></i18n-msg></p>
-            <br>
-            <h3><i18n-msg msgid="whitepaperondertitel2b"></i18n-msg></h3>
-            <p>
-            <span class="italic">Blockchain </span>( <a href="//en.wikipedia.org/wiki/Block_chain_(database)">https://en.wikipedia.org/wiki/Block_chain_(database)</a> )<br><i18n-msg msgid="whitepapertech1txt"></i18n-msg>
-            <br>
-            <span class="italic">Ethereum </span>( <a href="www.ethereum.org">www.ethereum.org</a> )<br><i18n-msg msgid="whitepapertech2txt"></i18n-msg>
-            <br>
-            <span class="italic">Ether </span>( <a href="//www.ethereum.org/ether">https://www.ethereum.org/ether</a> )<br><i18n-msg msgid="whitepapertech3txt"></i18n-msg>
-            <br>
-            <span class="italic">Smartcontracts </span>( <a href="//en.wikipedia.org/wiki/Smart_contract">https://en.wikipedia.org/wiki/Smart_contract</a> )<br><i18n-msg msgid="whitepapertech4txt"></i18n-msg>
-           <br>
-            <span class="italic">MQTT </span>( <a href="//mqtt.org/">http://mqtt.org/</a> )<br><i18n-msg msgid="whitepapertech5txt"></i18n-msg></p>
-            <br>
-
-            <h3><i18n-msg msgid="whitepaperondertitel3"></i18n-msg></h3>
-            <p><span class="italic"><i18n-msg msgid="whitepaperactie1titel"></i18n-msg></span></p>
-            <ul>
-              <li><i18n-msg msgid="whitepaperactie1txta"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie1txtb"></i18n-msg>
-              </li>
-              <li><i18n-msg msgid="whitepaperactie1txtc"></i18n-msg>
-              </li>
-              <li><i18n-msg msgid="whitepaperactie1txtd"></i18n-msg></li>
-            </ul>
-            <br>
-            
-            <p><span class="italic"><i18n-msg msgid="whitepaperactie2titel"></i18n-msg></span></p>
-            <ul>
-              <li><i18n-msg msgid="whitepaperactie2txta"></i18n-msg></li>
-            </ul>
-            <br>
-            
-            <p><span class="italic"><i18n-msg msgid="whitepaperactie3titel"></i18n-msg></span></p>
-            <ul>
-              <li><i18n-msg msgid="whitepaperactie3txta"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie3txtb"></i18n-msg></li>
-            </ul>
-            <br>
-
-            <p><span class="italic"><i18n-msg msgid="whitepaperactie4titel"></i18n-msg></span></p>
-            <ul>
-              <li><i18n-msg msgid="whitepaperactie4txta"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie4txtb"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie4txtc"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie4txtd"></i18n-msg></li>
-            </ul>
-            <br>
-
-            <p><span class="italic"><i18n-msg msgid="whitepaperactie5titel"></i18n-msg></span></p>
-            <ul>
-              <li><i18n-msg msgid="whitepaperactie5txta"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie5txtb"></i18n-msg></li>
-            </ul>
-            <br>
-
-            <p><span class="italic"><i18n-msg msgid="whitepaperactie6titel"></i18n-msg></span></p>
-            <ul>
-              <li><i18n-msg msgid="whitepaperactie6txta"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie6txtb"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie6txtc"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepaperactie6txtd"></i18n-msg></li>
-            </ul>
-            <br>
-
-            <p><span class="italic"><i18n-msg msgid="whitepaperactie7titel"></i18n-msg></span></p>
-            <ul>
-              <li><i18n-msg msgid="whitepaperactie7txta"></i18n-msg></li>
-            </ul>
-            <br>
-            <br>
-            <br>
-            <h2><i18n-msg msgid="whitepapertitel8"></i18n-msg></h2>
-            <h3><i18n-msg msgid="whitepaperondertitel8"></i18n-msg></h3>
-            <p><i18n-msg msgid="whitepapertxt8a"></i18n-msg><br><br><i18n-msg msgid="whitepapertxt8b"></i18n-msg>
-            <br><br><i18n-msg msgid="whitepapertxt8c"></i18n-msg>
-            </p>
-            <br>
-            <br>
-            <br>
-            <h2><i18n-msg msgid="whitepapertitel9"></i18n-msg></h2>
-            <h3><i18n-msg msgid="whitepaperondertitel9"></i18n-msg></h3>
-            <ul>
-              <li><i18n-msg msgid="whitepapertxt9a"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt9b"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt9c"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt9d"></i18n-msg></li>
-            </ul>
-            <h3><i18n-msg msgid="whitepapertitel10"></i18n-msg></h3>
-            <ul>
-              <li><i18n-msg msgid="whitepapertxt10a"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt10b"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt10c"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt10d"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt10e"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt10f"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt10g"></i18n-msg></li>
-            </ul>
-            <h3><i18n-msg msgid="whitepapertitel11"></i18n-msg></h3>
-            <ul>
-              <li><i18n-msg msgid="whitepapertxt11a"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt11b"></i18n-msg></li>
-              <li><i18n-msg msgid="whitepapertxt11c"></i18n-msg></li>
-            </ul>
-
-          </div>
-        </section>
-
-        <section data-route="visual">
-          <div class="whitepaper">
-            <poes-visualisation></poes-visualisation>
-          </div>
-        </section>     
 
       </iron-pages>
     </div>
