@@ -47,10 +47,38 @@
     "description": "...",
     "message": "Hoe werkt die Poezenclub eigenlijk?"
   },
-  "hoewerkttxt": {
+  "hoewerkt1titel": {
     "description": "...",
-    "message": "Je wordt lid van de Poezenclub door de Poezenclub-app te openen. Als lid van de Poezenclub kan je een poes kiezen, een naam geven en ze laten valideren door reeds gevalideerde poezen. Na twee validaties is je poes gevalideerd. Je kan nu de Poezendoos openen en ook zelf twee andere poezen valideren."
+    "message": "Laat je valideren"
+  },
+  "hoewerkt1txt": {
+    "description": "...",
+    "message": "Je wordt lid van de Poezenclub door de Poezenclub-app te openen. Als lid van de Poezenclub kan je een poes kiezen, een naam geven en ze laten valideren door reeds gevalideerde poezen. Na twee validaties is je poes gevalideerd."
   },  
+  "hoewerkt2titel": {
+    "description": "...",
+    "message": "Valideer zelf nieuwe leden"
+  },
+  "hoewerkt2txt": {
+    "description": "...",
+    "message": "Met een gevalideerde poes kan je 3 nieuwe poezen valideren."
+  }, 
+  "hoewerkt3titel": {
+    "description": "...",
+    "message": "Breng je stem uit"
+  },
+  "hoewerkt3txt": {
+    "description": "...",
+    "message": "De Poezenclub is een democratische organisatie, waar over te nemen beslissingen gestemd wordt. Voor elke stemming heeft een lid 1 stem. De eerste gezamenlijke beslissing van de Poezenclub is de inhoud van de Poezendoos (een doos vol lekkers). Een stemronde is beperkt in tijd, de leden kunnen hun stem veranderen tot aan de deadline. De optie met de meeste stemming wordt de volgende inhoud van de Poezendoos"
+  }, 
+  "hoewerkt4titel": {
+    "description": "...",
+    "message": "Open de doos"
+  },
+  "hoewerkt4txt": {
+    "description": "...",
+    "message": "Stemde je op de winnende optie, dan zal de doos voor jou opengaan en kan je wat lekkers nemen. Stemde je niet op de winnende optie, blijft de doos voor jou gesloten. Elke week is er een nieuwe stemronde en heb je een nieuwe kans."
+  }, 
   "technisch1": {
     "description": "...",
     "message": "Meer technische details?"

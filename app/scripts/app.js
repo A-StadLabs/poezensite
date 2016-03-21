@@ -42,9 +42,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   });
 
   document.addEventListener('HTMLImportsLoaded', function() {
-    I18nMsg.lang = 'en';
-    app.language = 'en';
+    I18nMsg.lang = 'nl';
+    app.language = 'nl';
     I18nMsg.url = 'locales'; // optionally use custom folder for locales.
+    app.whitepaper = "../../images/docs/" + app.language + "-pc_whitepaper.pdf";
     Platform.performMicrotaskCheckpoint();
   });
 
@@ -88,9 +89,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     Platform.performMicrotaskCheckpoint();
     app.pichorizontal = "../images/" + app.language+"-hoewerktdepoezendoos-horizontal.png";
     app.picvertical = "../images/" + app.language+"-hoewerktdepoezendoos-vertical.png";
-    console.log("de hor is=" , app.pichorizontal);
-    console.log("de ver is=" , app.picvertical);
-
+    app.whitepaper = "../../images/docs/" + app.language + "-pc_whitepaper.pdf";
   };
 
 })(document);

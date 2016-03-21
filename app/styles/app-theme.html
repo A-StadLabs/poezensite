@@ -538,13 +538,65 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       width: 85%;
       max-width: 1050px;
       margin: 5vh 0px 5vh 0px;
+      @apply(--layout-vertical);
+      @apply(--layout-start);
     }
 
+    .hoewerktonderdeel {
+      max-width: 760px;
+      @apply(--layout-horizontal);
+      @apply(--layout-start);
+      @apply(--layout-wrap);
+    }
+
+
+    .hoewerktonderdeeltxt {
+/*      max-width: 760px;*/
+      width: 100%;
+      @apply(--layout-horizontal);
+      @apply(--layout-start);
+      @apply(--layout-wrap);
+      padding: 35px 0px 35px 0px;
+      border-bottom: 2px dashed rgba(0,0,0,0.15);
+    }
+
+    .hoewerktallessamen {
+      width: 100%;
+      @apply(--layout-horizontal);
+      @apply(--layout-start);      
+      @apply(--layout-wrap);
+   
+    }
+
+    .hoewerktonderdeeltxt p {
+      max-width: 690px;
+    }
+
+    .hoewerktondertitel {
+      font-size: 18px;
+    }
 
     .hoewerkt img {
-      width: 100%;
-      max-width: 1050px;
+      width: 290px;
     }
+
+    .nmbr {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 20px; 
+      background-color: rgba(0,0,0,0.05);
+      padding: 0px;
+/*      text-align: center;*/
+      @apply(--layout-horizontal);
+      @apply(--layout-center-center);
+    }
+
+    .nmbr h2 {
+      font-size: 28px;
+      margin: 0px;
+    }
+
 
 
 
